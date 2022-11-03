@@ -1,3 +1,10 @@
+.superior {
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-radius: 0.3125rem;
+    background: white;
+}
+
 .p1{
     font-weight: 700;
     line-height: 1.25rem;
@@ -5,29 +12,63 @@
     margin-bottom: 1rem;
 }
 
-.p2{
+.p2 {
     line-height: 1.625rem;
     color: var(--Grayish-Blue);
     font-size: 0.875rem;
 }
 
-.superior{
-    padding-inline: 1.5rem;
-    padding-block: 2rem;
-    border-radius: 0.3125rem;
-    background: white;
-}
-
 .esquerda{
-    background-color: var(--Cyan);
-    padding-inline: 1.5rem;
-}
-
-.direita{
-    background-color: var(--Light-Cyan);
+    background: var(--Cyan);
     padding: 1.5rem;
 }
 
-pp1{
+.pp1{
     color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.pp2{
+    color: white;
+    opacity: 0.5;
+}
+
+.doisp{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.pp{
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+button{
+    padding-block: 1rem;
+    width: 100%;
+    color:white;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background: var(--Bright-Yellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
+
+.direita{
+    background: var(--Light-Cyan);
+    padding: 1.5rem;
+    border-bottom: 0.3125rem;
+}
+
+.direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }
